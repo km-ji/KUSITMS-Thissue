@@ -13,7 +13,7 @@ const connect = mongoose.connect(config.mongoURI,
     .then(() => console.log('MongoDB Connected...'))
     .catch(err => console.log(err));
 
-app.get('/', (req, res)=> res.send('hello world'))
+app.get('/', (req, res)=> res.send('핫식스 아좌아좌빠이띵'))
 
 if (process.env.NODE_ENV === "production") {
     app.use(express.static("client/build"));
