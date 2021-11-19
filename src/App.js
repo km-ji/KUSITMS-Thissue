@@ -11,7 +11,7 @@ import {
   ProfileIssueDraft,
   ProfileIssueUp,
   Withdrawal,
-  Search, 
+  Search,  
 } from "./pages";
 
 const App = () => {
