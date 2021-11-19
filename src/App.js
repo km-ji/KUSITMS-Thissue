@@ -11,11 +11,11 @@ import {
   ProfileIssueDraft,
   ProfileIssueUp,
   Withdrawal,
-  Search,  
+  Search,
 } from "./pages";
 
 const App = () => {
-  return (
+  return ( 
     <div>
       <Route path="/auth/callback/" component={Callback} />
       <Route path="/auth/login/" component={Login} />

@@ -1,9 +1,9 @@
 import React from "react";
 import './Home.css';
 // import './Home.scss';
-
+ 
 const Home = () => {
-    return (   
+    return (
         <div className="background">
             <div className="menubar">
                 <div className="issueUp">
@@ -15,7 +15,7 @@ const Home = () => {
                     THISSUE
                 </div>
 
-                <div>
+                <div> 
                     <input type="text" className="input"></input>
                     <img scr="./search.png" className="search"></img>
                 </div>
