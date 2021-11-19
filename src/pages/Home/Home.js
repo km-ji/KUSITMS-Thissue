@@ -3,7 +3,7 @@ import './Home.css';
 // import './Home.scss';
 
 const Home = () => {
-    return ( 
+    return (   
         <div className="background">
             <div className="menubar">
                 <div className="issueUp">
